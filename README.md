@@ -9,9 +9,6 @@
 
 ### Installation
 
-Запускаем командой docker compose up файл [docker-compose.yml](https://github.com/smabramov/Ansible-02-hw/blob/b42e046f4445e16b056001c02f90eac9f519acec/playbook/docker-compose.yml)
-
-
 Вам необходимо создать 3 виртуальных машины.
 
 Для установки использовать дистрибутив CentOS 7.
