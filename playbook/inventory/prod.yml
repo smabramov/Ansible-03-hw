@@ -2,21 +2,22 @@
 clickhouse:
   hosts:
     clickhouse-01:
-      ansible_host: 84.201.135.38
+      ansible_host: "158.160.29.102"
       ansible_connection: ssh
       ansible_user: serg
-      ansible_ssh_private_key_file: ~/.ssh/id_ed25519.pub
+      ansible_ssh_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCjPAPVh3of8E61ClpXzZHfNFmA0kIv3+8SkKj/AREi519oC8/HC70fsEiav9O8YlZvrSzhO+kK+AoUJheFQu2VrDWvxgCETIdcjkm/mLXZuFFNsDBoo3FJDpJ8+tdbZnkvwkcm9vus27037jUm76uXO+H8QmT5tzumOLJ32LQ25FMO2QSXgR6HpA4r2NGlQb2/eDrDUWXI2TJP/HRLRMgGE0ll805K/3cmQ6deaLS2XFgsBIrNCSeIotTNjowEwEODYWwFc4OEOGDpYuGwfGuez/uv43qCDH8GtL9hMwLHciSOGBAqMbyWhuECf6ZIaoTx7z3Y31TF5UBrd5AQnYo57cpaliDWL6UyisjLLpZ0vH9lCh9EnSJ5dCrGGLiMTBFk+kiSMffM9HRVa6/zA/KeiuQ6nV4CmrRHlfnEzmnGfNk7nmKFlcTO442MpXamk4RHCe2nxbZFdG10D4C+tUsDxncQexBSGkk66iwRsgmhPdBQUVkufxYRmfCPGbNSrks= serg@debian
 vector:
   hosts:
     clickhouse-02:
-      ansible_host: 89.169.128.201
+      ansible_host: "158.160.8.69"
       ansible_connection: ssh
       ansible_user: serg
-      ansible_ssh_private_key_file: ~/.ssh/id_ed25519.pub
+      ansible_ssh_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCjPAPVh3of8E61ClpXzZHfNFmA0kIv3+8SkKj/AREi519oC8/HC70fsEiav9O8YlZvrSzhO+kK+AoUJheFQu2VrDWvxgCETIdcjkm/mLXZuFFNsDBoo3FJDpJ8+tdbZnkvwkcm9vus27037jUm76uXO+H8QmT5tzumOLJ32LQ25FMO2QSXgR6HpA4r2NGlQb2/eDrDUWXI2TJP/HRLRMgGE0ll805K/3cmQ6deaLS2XFgsBIrNCSeIotTNjowEwEODYWwFc4OEOGDpYuGwfGuez/uv43qCDH8GtL9hMwLHciSOGBAqMbyWhuECf6ZIaoTx7z3Y31TF5UBrd5AQnYo57cpaliDWL6UyisjLLpZ0vH9lCh9EnSJ5dCrGGLiMTBFk+kiSMffM9HRVa6/zA/KeiuQ6nV4CmrRHlfnEzmnGfNk7nmKFlcTO442MpXamk4RHCe2nxbZFdG10D4C+tUsDxncQexBSGkk66iwRsgmhPdBQUVkufxYRmfCPGbNSrks= serg@debian
+
 lighthouse:
   hosts:
-    clickhouse-03:
-      ansible_host: 89.169.148.167
+    lighthouse-03:
+      ansible_host: "89.169.172.83"
       ansible_connection: ssh
       ansible_user: serg
-      ansible_ssh_private_key_file: ~/.ssh/id_ed25519.pub192.168.0.220
+      ansible_ssh_key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCjPAPVh3of8E61ClpXzZHfNFmA0kIv3+8SkKj/AREi519oC8/HC70fsEiav9O8YlZvrSzhO+kK+AoUJheFQu2VrDWvxgCETIdcjkm/mLXZuFFNsDBoo3FJDpJ8+tdbZnkvwkcm9vus27037jUm76uXO+H8QmT5tzumOLJ32LQ25FMO2QSXgR6HpA4r2NGlQb2/eDrDUWXI2TJP/HRLRMgGE0ll805K/3cmQ6deaLS2XFgsBIrNCSeIotTNjowEwEODYWwFc4OEOGDpYuGwfGuez/uv43qCDH8GtL9hMwLHciSOGBAqMbyWhuECf6ZIaoTx7z3Y31TF5UBrd5AQnYo57cpaliDWL6UyisjLLpZ0vH9lCh9EnSJ5dCrGGLiMTBFk+kiSMffM9HRVa6/zA/KeiuQ6nV4CmrRHlfnEzmnGfNk7nmKFlcTO442MpXamk4RHCe2nxbZFdG10D4C+tUsDxncQexBSGkk66iwRsgmhPdBQUVkufxYRmfCPGbNSrks= serg@debian
